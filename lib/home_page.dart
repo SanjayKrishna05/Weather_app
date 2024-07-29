@@ -39,6 +39,7 @@ class _HomePageState extends State<HomePage> {
     final padding = size.width * 0.05; // 5% padding
 
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       appBar: AppBar(
         title: Padding(
           padding: EdgeInsets.symmetric(horizontal: padding),
